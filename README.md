@@ -1,5 +1,8 @@
 # React SPA Starter
 
+[![Build status](https://ci.appveyor.com/api/projects/status/9ytf2woansyq2njk/branch/main?svg=true)](https://ci.appveyor.com/project/lwojcik/react-spa-starter/branch/main)
+[![codecov](https://codecov.io/github/lwojcik/react-spa-starter/graph/badge.svg?token=r7RTAMgp93)](https://codecov.io/github/lwojcik/react-spa-starter)
+
 React 19 + TypeScript single-page app on Vite, with:
 
 - **Routing:** [TanStack Router](https://tanstack.com/router), file-based and fully typed
