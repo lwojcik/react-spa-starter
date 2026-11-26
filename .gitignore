@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage
+playwright-report
+test-results
+blob-report
+/playwright/.cache
+# Env files: ignore everything, allow only public, secret-free ones.
+# Production values come from the host/CI environment, never from files.
+.env*
+!.env.example
+!.env.development
+!.env.e2e
+!.env.test
+
+# Claude Code: ignore everything under .claude/ by default (local settings,
+# worktrees, caches, session data), then allow only shared project config.
+.claude/*
+!.claude/settings.json
+!.claude/agents/
+!.claude/commands/
+!.claude/skills/
+!.claude/hooks/
+# Personal, per-machine instructions
+CLAUDE.local.md
+**/CLAUDE.local.md
